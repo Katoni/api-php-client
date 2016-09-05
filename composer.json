@@ -1,0 +1,24 @@
+{
+  "name": "katoni/api-php-client",
+  "type": "library",
+  "description": "",
+  "keywords": ["katoni"],
+  "homepage": "https://github.com/katoni/katoni-api-php-client",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Martin Skovvang Petersen",
+      "email": "martin@katoni.dk",
+      "homepage": "https://github.com/mpskovvang"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "league/oauth2-client": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Katoni\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
